@@ -1,6 +1,7 @@
 import { ISelect } from "../types/types";
 
 export const rooms: ISelect[] | null = [];
+
 const MIN_NUMBER_ROOM = 1;
 const MAX_NUMBER_ROOM = 10;
 

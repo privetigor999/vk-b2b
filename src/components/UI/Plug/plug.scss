@@ -1,0 +1,20 @@
+@import "./../../../styles/variables";
+
+.plug {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+
+  height: 56px;
+  padding: 0 6px;
+
+  text-align: center;
+  background-color: $gray;
+  border-radius: 4px;
+
+  &--error {
+    background-color: $red;
+    color: $white;
+  }
+}
